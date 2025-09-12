@@ -1,6 +1,6 @@
-if SHIELD_MY_KEYBOARD
+if SHIELD_LIESERL
 
 config ZMK_KEYBOARD_LIESERL
-    default "lieserl"
+    default "Lieserl-kf"
 
 endif
