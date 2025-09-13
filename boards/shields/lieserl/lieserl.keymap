@@ -14,13 +14,22 @@
     keymap {
         compatible = "zmk,keymap";
         
+        // default_layer {
+        //     display-name = "ALPHAS";
+        //     bindings = <
+        //         &kp ESC     &kp Q   &kp W   &kp F   &kp P   &kp B  &trans &trans      &kp J   &kp L   &kp U   &kp Y       &kp SQT     &kp C_MUTE
+        //         &kp TAB     &kp A   &kp R   &kp S   &kp T   &kp G  &trans &trans      &kp M   &kp N   &kp E   &kp I       &kp O       &kp MINUS
+        //         &kp LCTRL   &kp Z   &kp X   &kp C   &kp D   &kp V                       &kp K   &kp H       &kp COMMA   &kp DOT     &kp FSLH    &kp RET
+        //                                     &mo LM   &kp LSHFT   &kp SPACE &mo SYM &mo NAV   &kp BSPC    &kp SPACE   &mo RM
+        //     >;
+        // };
         default_layer {
-            display-name = "ALPHAS";
+            display-name = "TEST";
             bindings = <
-                &kp ESC     &kp Q   &kp W   &kp F   &kp P   &kp B  &trans &trans      &kp J   &kp L   &kp U   &kp Y       &kp SQT     &kp C_MUTE
-                &kp TAB     &kp A   &kp R   &kp S   &kp T   &kp G  &trans &trans      &kp M   &kp N   &kp E   &kp I       &kp O       &kp MINUS
-                &kp LCTRL   &kp Z   &kp X   &kp C   &kp D   &kp V                       &kp K   &kp H       &kp COMMA   &kp DOT     &kp FSLH    &kp RET
-                                            &mo LM   &kp LSHFT   &kp SPACE &mo SYM &mo NAV   &kp BSPC    &kp SPACE   &mo RM
+                &kp ESC     &kp Q   &kp W   &kp F   &kp P   &kp B  &kp N8 &kp N0      &kp J   &kp L   &kp U   &kp Y       &kp SQT     &kp DEL
+                &kp N2     &kp A   &kp R   &kp S   &kp T   &kp G  &kp N9 &kp N1      &kp M   &kp N   &kp E   &kp I       &kp O       &kp MINUS
+                &kp N3   &kp Z   &kp X   &kp C   &kp D   &kp V                       &kp K   &kp H       &kp COMMA   &kp DOT     &kp FSLH    &kp RET
+                                            &kp N4   &kp N5   &kp SPACE &kp N6 &kp N7   &kp BSPC    &kp SPACE   &kp N8
             >;
         };
 
