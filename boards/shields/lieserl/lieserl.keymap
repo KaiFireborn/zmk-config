@@ -24,7 +24,7 @@
                 &kp LCTRL   &kp Z   &kp X   &kp C   &kp D   &kp V                            &kp K   &kp H       &kp COMMA   &kp DOT     &kp FSLH    &kp RET
                                             &mo LM   &kp LSHFT   &kp SPACE &mo NAV &mo SYM   &kp BSPC    &kp SPACE   &mo RM
             >;                              
-        };aa
+        };
 
         // default_layer {
         //     display-name = "TEST";
