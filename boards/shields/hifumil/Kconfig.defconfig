@@ -1,0 +1,6 @@
+if SHIELD_HIFUMIL
+
+config ZMK_KEYBOARD_NAME
+    default "Hifumil-kf"
+
+endif

@@ -1,0 +1,8 @@
+file_format: "1"
+id: hifumil
+name: Hifumil
+type: shield
+url: https://github.com/kaifireborn/lieserl/
+requires: [nice_nano_v2]
+features:
+  - keys
