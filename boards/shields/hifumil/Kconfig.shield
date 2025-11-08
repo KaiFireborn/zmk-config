@@ -1,2 +1,5 @@
 config SHIELD_HIFUMIL
     def_bool $(shields_list_contains,hifumil)
+
+config SHIELD_CYBER_ANGEL
+    def_bool $(shields_list_contains,cyb3r_ang3l)

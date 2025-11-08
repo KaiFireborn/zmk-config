@@ -4,3 +4,10 @@ config ZMK_KEYBOARD_NAME
     default "Hifumil-kf"
 
 endif
+
+if SHIELD_CYBER_ANGEL
+
+config ZMK_KEYBOARD_NAME
+    default "Cyber Angel"
+
+endif
