@@ -8,6 +8,6 @@ endif
 if SHIELD_CYBER_ANGEL
 
 config ZMK_KEYBOARD_NAME
-    default "Cyber Angel"
+    default "Cyb3rAng3l-kf"
 
 endif
