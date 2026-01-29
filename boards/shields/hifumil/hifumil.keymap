@@ -91,7 +91,7 @@
             bindings = <
                 &trans     &trans     &trans     &trans     &trans                      &trans     &trans     &trans     &trans     &trans
                 &trans     &trans     &trans     &trans     &trans                      &trans     &kp RALT   &kp RSHFT  &kp RCTRL  &kp RGUI   
-                &trans     &trans     &trans     &trans     &trans  &trans  & trans   &trans     &trans     &trans     &trans     &trans
+                &trans     &trans     &trans     &trans     &trans  &trans  &trans   &trans     &trans     &trans     &trans     &trans
                               &mo LM  &trans     &kp LSHFT  &mo NAV  &mo SYM             &trans     &trans     &mo RM
             >;
         };
