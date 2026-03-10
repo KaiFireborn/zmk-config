@@ -6,7 +6,8 @@
         "*.json": "jsonc",
         "*.material": "jsonc",
         "*.while": "loop",
-        "*.keymap": "c"
+        "*.keymap": "c",
+        "*.overlay": "c"
     },
     "workbench.colorTheme": "Light Modern (OLED) Saturated Stylized"
 }
